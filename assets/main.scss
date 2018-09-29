@@ -1,0 +1,60 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import "minima";
+
+#rabbits {
+	font-family: "Carter One", cursive;
+	font-weight: bold;
+	font-size: 32px;
+}
+
+#and {
+	color: #990000;
+	font-size: 32px;
+	font-family: Courier New;
+}
+
+#turtles {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 40px;
+	
+}
+
+.site-title {
+	letter-spacing:0;
+}
+
+.site-nav .page-link {
+    line-height: 1.5;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+a {
+    color: #0c343d;
+    text-decoration: none;
+}
+a:visited {
+	color: #990000;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.site-footer {
+    border-top: 1px solid #990000;
+
+}
+
+.post-list {
+	padding: 10px;
+	border: 5px solid black;
+}
+
+.post-list > li {
+	margin-bottom: 0px;
+	
+}
